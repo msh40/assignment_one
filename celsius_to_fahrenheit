@@ -1,0 +1,8 @@
+<?php
+// Given temperature in Celsius is 32
+$celsius = 32;
+
+$fahrenheit = (($celsius*9)/5)+32; // Formula to convert celsius to fahrenheit
+printf("The temperature in Fahrenheit is: %.2f degrees\n", $fahrenheit);
+
+?>
